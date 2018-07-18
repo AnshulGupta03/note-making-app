@@ -10,8 +10,8 @@ root.title('Note Taking App')
 try:
     con = pm.connect(host='localhost', database='project', user='root',password='@nshul03')
     cursor = con.cursor()
-    #query1 = 'create table note_making(note_title varchar(40) primary key,notes varchar(1000))'
-    #cursor.execute(query1)
+    query1 = 'create table note_making(note_title varchar(40) primary key,notes varchar(1000))'
+    cursor.execute(query1)
     
 
     #functions
